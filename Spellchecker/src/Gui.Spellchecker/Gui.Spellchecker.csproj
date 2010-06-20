@@ -8,8 +8,8 @@
     <ProjectGuid>{4F7A258B-F59E-45B7-B8BC-13A4278AEBFB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gui.Spellchecker</RootNamespace>
-    <AssemblyName>Gui.Spellchecker</AssemblyName>
+    <RootNamespace>Rm.Spellchecker.Gui</RootNamespace>
+    <AssemblyName>Rm.Spellchecker.Gui</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

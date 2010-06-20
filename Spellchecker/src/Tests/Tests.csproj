@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A741D73C-5604-4565-A7DE-2B64AF88A0C0}</ProjectGuid>
+    <ProjectGuid>{ECC3DBBA-0319-4B1A-810D-DA167C0147FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Rm.Spellchecker.Core</RootNamespace>
-    <AssemblyName>Rm.Spellchecker.Core</AssemblyName>
+    <RootNamespace>Rm.Spellchecker.Tests</RootNamespace>
+    <AssemblyName>Rm.Spellchecker.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,14 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Text\Text.cs" />
-    <Compile Include="Text\TextElement.cs" />
-    <Compile Include="Text\TextElementList.cs" />
-    <Compile Include="Text\TextSplitter.cs" />
+    <Compile Include="Spellchecker\SpellcheckerTests.cs" />
+    <Compile Include="Text\TextSplittingTests.cs" />
+    <Compile Include="_Code\BaseTest.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SpellChecker\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

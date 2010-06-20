@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Core
+namespace Rm.Spellchecker.Core
 {
-    public class Class1
+    public class TextElement
     {
     }
 }
