@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Gui.Spellchecker
+namespace Rm.Spellchecker.Gui
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
