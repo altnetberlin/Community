@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Rm.Spellchecker.Core
 {
-    public class TextElementSplitRuleService
+    public class TextElementSplitRules
     {
         public static readonly char[] Marks = new char[] {',', ':', ';', '?', '!'};
         public static readonly char[] Spaces = new char[] {' '};

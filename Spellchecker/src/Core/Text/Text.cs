@@ -7,13 +7,18 @@ namespace Rm.Spellchecker.Core
 {
     public class Text
     {
+        private readonly TextElementReader _elementReader;
         private readonly string _text;
 
-        public Text(string text)
+        public Text(TextElementReader elementReader)
         {
-            _text = text;
+            _elementReader = elementReader;
+            TextElements = new TextElementList();
+        }
 
-            TextElements = new TextElementList(text);
+        public void Add(string text)
+        {
+            TextElements.Add(_elementReader.Run(text));
         }
 
         public TextElementList TextElements {get; private set;}

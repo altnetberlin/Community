@@ -25,5 +25,10 @@ namespace Rm.Spellchecker.Core
                 return Count > 0;
             }
         }
+
+        public void Add(TextElementList item)
+        {
+            AddRange(item);
+        }
     }
 }

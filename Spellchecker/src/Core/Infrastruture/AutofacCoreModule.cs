@@ -11,6 +11,7 @@ namespace Rm.Spellchecker.Core
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<TextElementReader>();
+            builder.RegisterType<TextElementSplitRules>();
         }
     }
 }

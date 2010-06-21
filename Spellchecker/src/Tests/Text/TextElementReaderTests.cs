@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using NUnit.Framework;
 using Rm.Spellchecker.Core;
+using SharpTestsEx;
 
 namespace Rm.Tests.Text
 {
@@ -12,10 +13,9 @@ namespace Rm.Tests.Text
         [Test]
         public void Read_words()
         {
-
             var textElementReader = Resolve<TextElementReader>();
-            textElementReader.Run("Klein1, klein1 ");
-            //var exampleText = @;
+            var textElements = textElementReader.Run("Klein1, klein1 ");
+            textElements.Count().Should().Be.EqualTo(6);
         }
 
     }

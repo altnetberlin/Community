@@ -10,6 +10,7 @@ namespace Rm.Tests
     [TestFixture]
     public class BaseTest
     {
+        [TestFixtureSetUp]
         public void SetUp()
         {
             Container.Build();

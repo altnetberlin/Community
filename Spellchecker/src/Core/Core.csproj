@@ -50,7 +50,7 @@
     <Compile Include="Text\TextElement.cs" />
     <Compile Include="Text\TextElementList.cs" />
     <Compile Include="Text\TextElementReader.cs" />
-    <Compile Include="Text\ElementSplitRule\TextElementSplitRuleService.cs" />
+    <Compile Include="Text\TextElementSplitRule.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SpellChecker\" />
