@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Rm.Spellchecker.Core
 {
-    public class TextSplitter
+    public class TextElementReader
     {
     }
 }

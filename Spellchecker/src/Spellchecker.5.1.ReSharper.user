@@ -7,8 +7,38 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:_Code/f:BaseTest.cs" caret="133" fromTop="5" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:Text.cs" caret="122" fromTop="4" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextElement.cs" caret="122" fromTop="4" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextElementList.cs" caret="122" fromTop="4" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextSplitter.cs" caret="170" fromTop="8" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:Spellchecker/f:SpellcheckerTests.cs" caret="484" fromTop="20" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:Text/f:TextSplittingTests.cs" caret="334" fromTop="17" />
+      <File id="4F7A258B-F59E-45B7-B8BC-13A4278AEBFB/f:MainWindow.xaml.cs" caret="365" fromTop="12" />
+      <File id="4F7A258B-F59E-45B7-B8BC-13A4278AEBFB/f:App.xaml.cs" caret="318" fromTop="15" />
+      <File id="4F7A258B-F59E-45B7-B8BC-13A4278AEBFB/f:App.xaml" caret="327" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextElement.cs" caret="0" fromTop="0" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextElementList.cs" caret="0" fromTop="0" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:Text.cs" caret="416" fromTop="14" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:Text.cs" caret="321" fromTop="14" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextElementList.cs" caret="508" fromTop="10" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextElementList.cs" caret="400" fromTop="17" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:Text/f:TextSplittingTests.cs" caret="272" fromTop="12" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:Text/f:TextSplittingTests.cs" caret="322" fromTop="22" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:Spellchecker/f:SpellcheckerTests.cs" caret="433" fromTop="15" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:Spellchecker/f:SpellcheckerTests.cs" caret="472" fromTop="17" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:Text/f:TextSplittingTests.cs" caret="307" fromTop="13" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:_Code/f:BaseTest.cs" caret="142" fromTop="5" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:Text.cs" caret="122" fromTop="4" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextElement.cs" caret="122" fromTop="4" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextElementList.cs" caret="122" fromTop="4" />
+      <File id="A741D73C-5604-4565-A7DE-2B64AF88A0C0/d:Text/f:TextSplitter.cs" caret="161" fromTop="4" />
+      <File id="ECC3DBBA-0319-4B1A-810D-DA167C0147FD/d:Text/f:TextSplittingTests.cs" caret="133" fromTop="5" />
+      <File id="4F7A258B-F59E-45B7-B8BC-13A4278AEBFB/f:MainWindow.xaml.cs" caret="399" fromTop="13" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +51,29 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="List" priority="0" />
+      <Item value="public" priority="3" />
+      <Item value="string" priority="1" />
+      <Item value="return" priority="0" />
+      <Item value="Words" priority="3" />
+      <Item value="Word`0" priority="2" />
+      <Item value="Word" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="result" priority="1" />
+      <Item value="Text`0" priority="1" />
+      <Item value="new" priority="1" />
+      <Item value="WordList" priority="0" />
+      <Item value="text" priority="0" />
+      <Item value="void" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Core.Text.WordList">
+      <Item value="Join`4" priority="2" />
+      <Item value="Aggregate`3" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
