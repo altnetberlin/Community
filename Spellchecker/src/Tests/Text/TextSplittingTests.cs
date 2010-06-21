@@ -6,10 +6,10 @@ using NUnit.Framework;
 
 namespace Rm.Tests.Text
 {
-    public class TextSplitterTests : BaseTest
+    public class TextElementReaderTests : BaseTest
     {
         [Test]
-        public void Split_words()
+        public void Read_words()
         {
             var exampleText = @"Klein1, klein1 ";
         }
