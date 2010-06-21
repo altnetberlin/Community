@@ -16,6 +16,8 @@ namespace Rm.Tests.Text
             var textElementReader = Resolve<TextElementReader>();
             var textElements = textElementReader.Run("Klein1, klein1 ");
             textElements.Count().Should().Be.EqualTo(6);
+
+            textElements.DumpToConsole();
         }
 
     }

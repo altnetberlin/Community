@@ -30,5 +30,11 @@ namespace Rm.Spellchecker.Core
         {
             AddRange(item);
         }
+
+        public void DumpToConsole()
+        {
+            for (int i = 0; i < this.Count; i++)
+                Console.WriteLine("Element {0}: {1}", i, this[i].String);
+        }
     }
 }
