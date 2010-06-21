@@ -7,5 +7,9 @@ namespace Rm.Spellchecker.Core
 {
     public class TextElement
     {
+        public void Add(char character)
+        {
+            
+        }
     }
 }

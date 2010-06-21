@@ -18,9 +18,12 @@ namespace Rm.Spellchecker.Core
     /// </summary>
     public class TextElementList : List<TextElement>
     {
-        public TextElementList(string text)
+        public bool HasElements
         {
-            text.Split(' ');
+            get
+            {
+                return Count > 0;
+            }
         }
     }
 }
