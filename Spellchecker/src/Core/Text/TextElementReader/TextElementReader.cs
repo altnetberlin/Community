@@ -7,13 +7,12 @@ using System.Text;
 
 namespace Rm.Spellchecker.Core
 {
-    public class TextElementReader
+    public class TextElementReader : ITextElementReader
     {
         private readonly TextElementSplitRules _splitRules;
-        internal ArrayList _bufferCurrentWord;
         
-        internal TextElementList _textElements;
-        internal TextElement _currentElement;
+        private TextElementList _elements;
+        private TextElement _currentElement;
 
         public TextElementReader(TextElementSplitRules splitRules)
         {
@@ -23,39 +22,34 @@ namespace Rm.Spellchecker.Core
 
         public bool HasElements
         {
-            get { return _textElements.HasElements; }
+            get { return _elements.HasElements; }
         }
 
         private void Initialize()
         {
-            _bufferCurrentWord = new ArrayList();
-            _textElements = new TextElementList();            
+            _elements = new TextElementList();            
         }
         
         public TextElementList Run(string text)
         {
-            Initialize();
-
             foreach (char character in text)
                 AddToTextElement(character);
 
-            return _textElements;
+            return _elements;
         }
 
         private void AddToTextElement(char character)
         {
             if (_splitRules.IsNewElement(character, this))
-                AddToNewTextElement(character);
-
-            _bufferCurrentWord.Add(character);
+                AddNewElement(character);
+            
+            _currentElement.Add(character);
         }
 
-
-        private void AddToNewTextElement(char character)
+        private void AddNewElement(char character)
         {
-            var newTextElement = new TextElement();
-            newTextElement.Add(character);
-            _textElements.Add(newTextElement);
+            _currentElement = new TextElement();
+            _elements.Add(_currentElement);
         }
     }
 }

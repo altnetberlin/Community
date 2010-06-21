@@ -10,9 +10,8 @@ namespace Rm.Spellchecker.Core
         public static readonly char[] Marks = new char[] {',', ':', ';', '?', '!'};
         public static readonly char[] Spaces = new char[] {' '};
 
-        public bool IsNewElement(char character, TextElementReader textElementReader)
+        public bool IsNewElement(char character, ITextElementReader textElementReader)
         {
-
             if (!textElementReader.HasElements)
                 return true;
 

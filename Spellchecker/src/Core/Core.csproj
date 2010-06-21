@@ -49,8 +49,9 @@
     <Compile Include="Text\Text.cs" />
     <Compile Include="Text\TextElement.cs" />
     <Compile Include="Text\TextElementList.cs" />
-    <Compile Include="Text\TextElementReader.cs" />
-    <Compile Include="Text\TextElementSplitRule.cs" />
+    <Compile Include="Text\TextElementReader\ITextElementReader.cs" />
+    <Compile Include="Text\TextElementReader\TextElementReader.cs" />
+    <Compile Include="Text\TextElementReader\TextElementSplitRule.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SpellChecker\" />

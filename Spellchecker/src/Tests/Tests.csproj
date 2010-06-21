@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Moq">
+      <HintPath>..\..\lib\Moq.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\..\lib\nunit.framework.dll</HintPath>
     </Reference>
@@ -50,6 +53,7 @@
     <Compile Include="Spellchecker\SpellcheckerTests.cs" />
     <Compile Include="Text\TextElementListTests.cs" />
     <Compile Include="Text\TextElementReaderTests.cs" />
+    <Compile Include="Text\TextElementSplitRule.cs" />
     <Compile Include="Text\TextElementTests.cs" />
     <Compile Include="_Code\BaseTest.cs" />
   </ItemGroup>
