@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Spellchecker\SpellcheckerTests.cs" />
-    <Compile Include="Text\TextSplittingTests.cs" />
+    <Compile Include="Text\TextElementReaderTests.cs" />
     <Compile Include="_Code\BaseTest.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -15,7 +15,7 @@ namespace Rm.Tests.Text
 
             var textElementReader = Resolve<TextElementReader>();
             textElementReader.Run("Klein1, klein1 ");
-            var exampleText = @;
+            //var exampleText = @;
         }
 
     }

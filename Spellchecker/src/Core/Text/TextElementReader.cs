@@ -9,16 +9,21 @@ namespace Rm.Spellchecker.Core
 {
     public class TextElementReader
     {
-        private readonly TextElementSplitRuleService _splitRuleService;
+        private readonly TextElementSplitRules _splitRules;
         internal ArrayList _bufferCurrentWord;
         
         internal TextElementList _textElements;
         internal TextElement _currentElement;
 
-        public TextElementReader(TextElementSplitRuleService splitRuleService)
+        public TextElementReader(TextElementSplitRules splitRules)
         {
-            _splitRuleService = splitRuleService;
+            _splitRules = splitRules;
             Initialize();
+        }
+
+        public bool HasElements
+        {
+            get { return _textElements.HasElements; }
         }
 
         private void Initialize()
@@ -39,22 +44,12 @@ namespace Rm.Spellchecker.Core
 
         private void AddToTextElement(char character)
         {
-            if (IsNewTextElement(character))
+            if (_splitRules.IsNewElement(character, this))
                 AddToNewTextElement(character);
 
             _bufferCurrentWord.Add(character);
         }
 
-        private bool IsNewTextElement(char character)
-        {
-            if (!_textElements.HasElements)
-                return true;
-
-            if (_splitRuleService.IsNewElement(character, this))
-                return true;
-
-            return false;
-        }
 
         private void AddToNewTextElement(char character)
         {
