@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="51B62357-FE43-42EF-ACC2-9DED7B343586" ModuleId="Core" />
+  <Module PersistentId="A38F047C-E293-4C46-8F34-19914969B18F" ModuleId="Tests" />
+</Modules>

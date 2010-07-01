@@ -1,0 +1,38 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A38F047C-E293-4C46-8F34-19914969B18F/f:Roles.cs" caret="241" fromTop="9" />
+      <File id="A38F047C-E293-4C46-8F34-19914969B18F/f:StoryQTestClass.cs" caret="795" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A38F047C-E293-4C46-8F34-19914969B18F/f:Roles.cs" caret="241" fromTop="9" />
+      <File id="A38F047C-E293-4C46-8F34-19914969B18F/f:StoryQTestClass.cs" caret="1260" fromTop="26" />
+      <File id="A38F047C-E293-4C46-8F34-19914969B18F/f:StoryQTestClass.cs" caret="174" fromTop="2" />
+      <File id="A38F047C-E293-4C46-8F34-19914969B18F/f:StoryQTestClass.cs" caret="118" fromTop="0" />
+      <File id="A38F047C-E293-4C46-8F34-19914969B18F/f:StoryQTestClass.cs" caret="795" fromTop="23" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
