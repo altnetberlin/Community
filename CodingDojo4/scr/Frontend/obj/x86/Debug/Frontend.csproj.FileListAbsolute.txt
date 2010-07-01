@@ -1,0 +1,7 @@
+C:\Projects\Community\CodingDojo4\scr\Frontend\bin\Debug\Frontend.exe
+C:\Projects\Community\CodingDojo4\scr\Frontend\bin\Debug\Frontend.pdb
+C:\Projects\Community\CodingDojo4\scr\Frontend\bin\Debug\Core.dll
+C:\Projects\Community\CodingDojo4\scr\Frontend\bin\Debug\Core.pdb
+C:\Projects\Community\CodingDojo4\scr\Frontend\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\Community\CodingDojo4\scr\Frontend\obj\x86\Debug\Frontend.exe
+C:\Projects\Community\CodingDojo4\scr\Frontend\obj\x86\Debug\Frontend.pdb
