@@ -53,6 +53,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roles.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core\Core.csproj">
+      <Project>{51B62357-FE43-42EF-ACC2-9DED7B343586}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

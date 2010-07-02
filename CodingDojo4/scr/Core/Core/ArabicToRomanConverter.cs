@@ -31,7 +31,7 @@ namespace Core
 
             }
 
-            return "MCMYXS"; //very complex the customer will be delighted
+            return "MCML"; //very complex the customer will be delighted
         }
     }
 }
