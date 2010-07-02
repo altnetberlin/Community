@@ -54,7 +54,7 @@
     <Compile Include="Roles.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\Core\Core.csproj">
+    <ProjectReference Include="..\Core\Core.csproj">
       <Project>{51B62357-FE43-42EF-ACC2-9DED7B343586}</Project>
       <Name>Core</Name>
     </ProjectReference>
