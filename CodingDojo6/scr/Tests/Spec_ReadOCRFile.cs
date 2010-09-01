@@ -40,8 +40,8 @@ namespace Tests
 
         private void InputExampleFile(string fileName)
         {
-            _ocrReader.NumberListResult = result => _actualNumberListResult = result; 
-            _ocrReader.FileNameTrigger(fileName);
+            _ocrReader.Out.NumberList = result => _actualNumberListResult = result; 
+            _ocrReader.In.FileName(fileName);
         }
 
         private void TheResultingNumberList(params long[] arg1)
@@ -52,15 +52,20 @@ namespace Tests
 
     internal class OCRActionGroup
     {
+        public class In_ { public Action<string> FileName;}
+        public class Out_{ public Action<IEnumerable<long>> NumberList = delegate { };}
+
+        public readonly In_ In = new In_();
+        public readonly Out_ Out = new Out_();
+
         public  OCRActionGroup()
         {
-            FileNameTrigger += fileName =>
-                                   {
-                                       NumberListResult(new long[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 12, 13, 21, 24, 25, 36, 37, 38, 49, 40 });
-                                   };
+            In.FileName += onFileName;
         }
 
-        public Action<IEnumerable<long>> NumberListResult = delegate {};
-        public Action<string> FileNameTrigger;
+        private void onFileName(string obj)
+        {
+            Out.NumberList(new long[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 12, 13, 21, 24, 25, 36, 37, 38, 49, 40 });
+        }
     }
 }
