@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
 namespace Frontend
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Queryable.ElementAt()
-                Enumerable.
+            var input = Console.ReadLine();
+
         }
     }
 }
