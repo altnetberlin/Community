@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml.Linq;
+using Core.Model;
 
 namespace Core.Schnittstellen
 {
 	public class FantasyFormatExporter
 	{
+
+		public void Run(Auftrag auftrag, string pfad)
+		{
+			Run(new FantasyFormatExporterCommand {Auftrag = auftrag, OutputPath = pfad});
+		}
 
 		public void Run(FantasyFormatExporterCommand cmd)
 		{
