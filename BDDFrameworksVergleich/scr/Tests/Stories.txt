@@ -16,10 +16,11 @@ And: the node "X" should have the of SampleOrder.Y
 
 Aceptance Criteria (Story): the exported file should be validated against XSD
 Given: I have an exported SampleOrder 
-Then: I should be successfully validate against an XSD 
+When: I validaten against XSD
+Then: The result should be positive
 
 Aceptance Criteria (Story): the exported file sholud have the correct name
-Give: my sample order ist exported
+Given: my sample order ist exported
 Then: the file name should be equal to the Auftrag.Id
 
 
