@@ -1,0 +1,29 @@
+﻿
+
+--------------------------
+Feature: Datenaustausch (in englisch)
+--------------------------
+
+As: exampleCompany
+IWantTo: export invoice to FantasyFormat.
+
+Aceptance Criteria (Story): all fields should be equal to my "Auftrag"
+Given: I have an exported SampleOrder 
+When: I check the resulting fantasyDocument nodes
+Then: the node "KäuferName" should have the of SampleOrder.Käufer.Name
+And: the node "TotalPrice" should have the of SampleOrder.TotalPrice
+And: the node "X" should have the of SampleOrder.Y
+
+Aceptance Criteria (Story): the exported file should be validated against XSD
+Given: I have an exported SampleOrder 
+Then: I should be successfully validate against an XSD 
+
+Aceptance Criteria (Story): the exported file sholud have the correct name
+Give: my sample order ist exported
+Then: the file name should be equal to the Auftrag.Id
+
+
+
+--------------------------
+Feature: Datenaustausch (in deutsch)
+--------------------------
