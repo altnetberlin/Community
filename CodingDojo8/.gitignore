@@ -1,0 +1,13 @@
+_svn/
+.svn/
+obj/
+[Bb]in/
+[Dd]ebug/   
+[Rr]elease/   
+_Re[Ss]harper.*
+*.[Rr]e[Ss]harper
+*.[Rr]e[Ss]harper.user
+*.suo
+*.cache
+*~
+*.swp
